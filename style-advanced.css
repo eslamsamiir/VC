@@ -1,0 +1,121 @@
+html {
+  padding: 0px;
+  font-family: arial,sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  height: 60px;
+  background-color: #f1f1f1;
+  text-align: right;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 14.5px;
+}
+
+.logo img {
+  display: block;
+  padding: 14.5px 0px;
+  max-height: 31px;
+}
+
+.links {
+  height: 60px;
+  margin-right: 14.5px;
+}
+
+.links span {
+  display: block;
+  padding: 23px 0px;
+  font-size: 14px;
+
+}
+
+.title {
+  height: 75px;
+  border: 1px solid #f1f1f1;
+}
+
+.title p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 27.5px 45px;
+  color: #d93025;
+}
+
+.search_area {
+  margin: 0px;
+  padding-top: 40px;
+  padding-left: 45px;
+  color: #333;
+}
+
+.search_area p {
+  margin: 0px;
+}
+
+.inputs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 180px 560px;
+  grid-row-gap: 15px;
+  margin-top: 20px;
+}
+
+.inputs p {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.inputs input {
+  width: 560px;
+  height: 25px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  padding-left: 10px;
+}
+
+.inputs input:focus {
+  box-shadow: 0px 1.5px 1.5px #d9d9d9 inset;
+  border: 1px solid #4285F4;
+}
+
+input {
+  display: block;
+}
+
+input[type="submit"] {
+  text-align: right;
+  margin-top: 20px;
+  float: right;
+  margin-right: 20px;
+  user-select: none;
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.form {
+  width: 773px;
+  text-align: right;
+}
